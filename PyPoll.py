@@ -115,6 +115,13 @@ file_to_load = os.path.join("Resources", "election_results.csv")
 # Assign a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
+# Initialize Total_Vote Counter
+total_votes = 0
+
+#Declare candidate_options list
+candidate_options = []
+
+
 # Open the election results and read the file.
 with open(file_to_load) as election_data:
 
@@ -126,4 +133,24 @@ with open(file_to_load) as election_data:
     # Print the header row.
     headers = next(file_reader)
     print(headers)
+
+    # Print each row in the CSV file
+    for row in file_reader:
+        print(row)
+
+        # Increment total_votes by 1
+        total_votes +=1
+
+        # Print the candidate name from each row
+        candidate_name = row[2]
+
+        # Add the candidate_name to the candidate_options list using the append() method
+        candidate_options.append(candidate_name)
+
+#Print candidate_options list
+print(candidate_options)
+
+# Print total_votes
+print(total_votes)
+
 # %%
