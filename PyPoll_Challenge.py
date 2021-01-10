@@ -67,7 +67,7 @@ with open(file_to_load) as election_data:
 
         # 4a: Write an if statement that checks that the
         # county does not match any existing county in the county list.
-        if county_name not in county_list
+        if county_name not in county_list:
 
 
             # 4b: Add the existing county to the list of counties.????????????????
@@ -97,13 +97,13 @@ with open(file_to_save, "w") as txt_file:
     txt_file.write(election_results)
 
     # 6a: Write a for loop to get the county from the county dictionary.
-    for county in county_list
+    for county in county_list:
 
-        # 6b: Retrieve the county vote count.
+        # 6b: Retrieve the county vote count.????????????????????????
         total_county_votes
         cvotes = county_votes
 
-        # 6c: Calculate the percentage of votes for the county.
+        # 6c: Calculate the percentage of votes for the county.????????????????????????
         c_percent_votes = county_votes/
 
 

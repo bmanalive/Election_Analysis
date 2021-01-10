@@ -281,3 +281,12 @@ voting_data = [``{"county":"Arapahoe", "registered_voters": 422829}, {"county":"
          print(f'{key} county has {value:,} registered voters. ')
 
 # %%
+dir({'Arapahoe': 422829, 'Denver': 463353, 'Jefferson': 432438})
+
+# %%
+dir(str)
+# %%
+dir(int)
+# %%
+dir(float)
+# %%
