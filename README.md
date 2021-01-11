@@ -27,7 +27,8 @@ The purpose of this challenge was to use Python to analyse election data provide
     * **24,801 votes in total**
 
 **Note:  The number in parenthesis are the total votes of each county.**
-  ![County_results](analysis/County_results.png)
+
+![County_results](analysis/County_results.png)
   
 * Which county had the largest number of votes?  **Denver had the largest number of votes at 306,855.**
   
@@ -48,6 +49,7 @@ The purpose of this challenge was to use Python to analyse election data provide
 #### Link to Election Analysis Link: [Election_Analysis](analysis/election_analysis.txt)
 
 #### Election_Analysis.txt Screenshot
+
 ![election_analysis_screenshot](analysis/ScreenShot_election_analysis.png)
 
 ## Election-Audit Summary: 
