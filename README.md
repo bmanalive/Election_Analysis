@@ -28,7 +28,7 @@ The purpose of this challenge was to use Python to analyse election data provide
 
 **Note:  The number in parenthesis are the total votes of each county.**
 
-![County_results](analysis/County_results.png)
+![County results](Election_Analysis/analysis/County_results.png)
   
 * Which county had the largest number of votes?  **Denver had the largest number of votes at 306,855.**
   
@@ -50,7 +50,7 @@ The purpose of this challenge was to use Python to analyse election data provide
 
 #### Election_Analysis.txt Screenshot
 
-![election_analysis_screenshot](analysis/ScreenShot_election_analysis.png)
+![election_analysis_screenshot](Election_Analysis/analysis/ScreenShot_election_analysis.png)
 
 ## Election-Audit Summary: 
 This script could be modified to pull and display any number of regional data points such as state and city, allowing analysis at those levels as well.  This could easily be run by adding a City and State column to the .csv file and reading data in the same way as county information.
