@@ -42,7 +42,8 @@ The purpose of this challenge was to use Python to analyse election data provide
     * **3.1% of the vote**
     * **11,606 votes in total**
 * Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-  **Diana DeGette won the election with 73.8% of the vote which equaled 272,892 votes.
+
+  **Diana DeGette won the election with 73.8% of the vote which equaled 272,892 votes.**
 
 #### Link to Election Analysis Link: [Election_Analysis](analysis/election_analysis.txt)
 
