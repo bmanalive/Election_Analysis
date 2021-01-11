@@ -12,7 +12,7 @@ The purpose of this challenge was to use Python to analyse election data provide
 * The winner of the election based on popular vote.
  
  
- ## Results (See Link to 'election_analysis" Ouput Text File for Reference at the end of this section)
+ ## Results (See Link to 'election_analysis" Ouput Text File for Reference at the End of This Section)
 * How many votes were cast in this congressional election?  **There were 369,711 votes cast in the election**
 
 * Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
